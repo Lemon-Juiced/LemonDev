@@ -1,0 +1,4 @@
+To Do:
+Add Favicon
+Stuff done through CurseForge API
+Add links to GitHub page for Mod themselves, column with Git icon

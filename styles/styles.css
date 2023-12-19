@@ -82,6 +82,9 @@ li.dropdown {
 }
 
 /* This is for the tables */
+table {
+    border-collapse: collapse;
+}
 th {
     background: rgba(0,255,255,0.8);
     font-size: 20px;
@@ -91,4 +94,7 @@ th {
 }
 tr {
     padding-right: 10px;
+    border: solid;
+    border-color: #f1f1f1;
+    border-width: 1px 0;
 }

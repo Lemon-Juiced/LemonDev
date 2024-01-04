@@ -47,3 +47,4 @@ const lite_exchange_integrations = new Mod("Lite Exchange Integrations", "lite-e
 const project_yellow = new Mod("Project Yellow", "project-yellow")
 const reaped = new Mod("Reaped", "reaped")
 const soul_cages = new Mod("Soul Cages", "soul-cages")
+const xychron = new Mod("Xychron", "xychron")

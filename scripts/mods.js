@@ -22,7 +22,7 @@ class Mod{
 
 // Mods
 // Core Mods
-lembrary = new Mod("Lembrary", "lembrary")
+var lembrary = new Mod("Lembrary", "lembrary")
 var lemon_core = new Mod("Lemon Core", "lemon-core")
 var lime_converter = new Mod("Lime Converter", "lime-converter")
 // Scalar Utils Mods
@@ -48,3 +48,6 @@ var project_yellow = new Mod("Project Yellow", "project-yellow")
 var reaped = new Mod("Reaped", "reaped")
 var soul_cages = new Mod("Soul Cages", "soul-cages")
 var xychron = new Mod("Xychron", "xychron")
+
+// Set the anchor tags
+document.getElementById(lembraryURL).href(lembrary.getURL())

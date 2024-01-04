@@ -9,7 +9,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="styles/styles.css">
-        <script src="scripts/mods.js"></script>
+        <script src="scripts/mods.js">
+            document.getElementById(lembraryURL).innerHTML(lembrary.getURL())
+        </script>
     </head>
     <body>
         <ul class="navbar">
@@ -53,7 +55,7 @@
                 </tr>
                 <tr>
                     <!--Lembrary-->
-                    <td><a href="https://www.curseforge.com/minecraft/mc-mods/lembrary">Lembrary</a></td>
+                    <td><a href="" id="lembraryURL">Lembrary</a></td>
                     <td>1.20.2-1.0.2</td><!--This should be done through API in future.-->
                     <td>Coming Soon!</td><!--This should be done through API in future.-->
                     <td>Native</td>

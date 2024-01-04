@@ -22,7 +22,7 @@ class Mod{
 
 // Mods
 // Core Mods
-var lembrary = new Mod("Lembrary", "lembrary")
+lembrary = new Mod("Lembrary", "lembrary")
 var lemon_core = new Mod("Lemon Core", "lemon-core")
 var lime_converter = new Mod("Lime Converter", "lime-converter")
 // Scalar Utils Mods

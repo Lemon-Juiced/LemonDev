@@ -48,6 +48,3 @@ var project_yellow = new Mod("Project Yellow", "project-yellow")
 var reaped = new Mod("Reaped", "reaped")
 var soul_cages = new Mod("Soul Cages", "soul-cages")
 var xychron = new Mod("Xychron", "xychron")
-
-// Set the anchor tags
-document.getElementById(lembraryURL).href(lembrary.getURL())

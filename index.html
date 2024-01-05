@@ -53,7 +53,7 @@
                 </tr>
                 <tr>
                     <!--Lembrary-->
-                    <td><a id="lembraryURL">Lembrary</a></td>
+                    <td><a href="https://www.curseforge.com/minecraft/mc-mods/lembrary">Lembrary</a></td>
                     <td>1.20.2-1.0.2</td><!--This should be done through API in future.-->
                     <td>Coming Soon!</td><!--This should be done through API in future.-->
                     <td>Native</td>
@@ -277,6 +277,16 @@
                 </tr>
             </table>
 
+            <script src="scripts/mods.js">
+                document.addEventListener('DOMContentLoaded', function() {
+                    // Set the anchor tags
+                    var mod1 = document.getElementById('lembraryURL');
+                    mod1.setAttribute('href', 'https://www.curseforge.com/minecraft/mc-mods/lembrary');
+
+                    return false;
+                });
+
+            </script>
         </div>
     </body>
 </html>

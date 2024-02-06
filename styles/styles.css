@@ -44,24 +44,31 @@ body {
     background-color: #333;
     font-family: "Gill Sans", sans-serif;
 }
-li {
+
+.navbar li {
     float: left;
     font-family: "Gill Sans", sans-serif;
 }
-li a, .dropbtn {
+
+.navbar a,
+.navbar .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover, .dropdown:hover .dropbtn {
+
+.navbar a:hover,
+.navbar .dropdown:hover .dropbtn {
     background-color: blueviolet;
 }
-li.dropdown {
+
+.navbar .dropdown {
     display: inline-block;
 }
-.dropdown-content {
+
+.navbar .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -69,15 +76,15 @@ li.dropdown {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-.dropdown-content a {
+.navbar .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
 }
-.dropdown-content a:hover {background-color: #f1f1f1;}
-.dropdown:hover .dropdown-content {
+.navbar .dropdown-content a:hover {background-color: #f1f1f1;}
+.navbar .dropdown:hover .dropdown-content {
   display: block;
 }
 
@@ -98,3 +105,24 @@ tr {
     border-color: #f1f1f1;
     border-width: 1px 0;
 }
+
+/* This is for the buttons */
+  .buttons-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+
+  .button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; 
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+  }

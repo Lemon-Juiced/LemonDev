@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CScroll/JScroll Documentation</title>
+        <link rel="icon" type="image/x-icon" href="/images/lemon.ico">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="scripts/headerFooterManager.js"></script>
+    </head>
+    <body>
+        <custom-navbar></custom-navbar>
+
+        <div class="general">
+            <h1>CScroll/JScroll Documenation</h1>
+            <h2>Instructions</h2>
+            <h3>Pointer Move Instructions</h3>
+            <table>
+                <tr>
+                    <th>Instruction Symbol</th>
+                    <th>Instruction</th>
+                    <th>Language Version Added</th>
+                </tr>
+                <tr>
+                    <td>&lt</td>
+                    <td>Move Left</td>
+                    <td>JScroll</td>
+                </tr>
+                <tr>
+                    <td>&gt</td>
+                    <td>Move Right</td>
+                    <td>JScroll</td>
+                </tr>
+            </table>
+
+            <h3>Pointer Interaction Instructions</h3>
+            <table>
+                <tr>
+                    <th>Instruction Symbol</th>
+                    <th>Instruction</th>
+                    <th>Language Version Added</th>
+                </tr>
+                <tr>
+                    <td>+</td>
+                    <td>Increment</td>
+                    <td>JScroll</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>Decrement</td>
+                    <td>JScroll</td>
+                </tr>
+                <tr>
+                    <td>.</td>
+                    <td>Store Value In Pointer Memory (Pointer Memory Is By Default 0)</td>
+                    <td>JScroll</td>
+                </tr>
+                <tr>
+                    <td>*</td>
+                    <td>Add Pointer Memory To Current Pointer Location</td>
+                    <td>JScroll</td>
+                </tr>
+                <tr>
+                    <td>/</td>
+                    <td>Subtract Pointer Memory To Current Pointer Location</td>
+                    <td>JScroll</td>
+                </tr>
+            </table>
+
+            <h3>Pointer Print Instructions</h3>
+            <table>
+                <tr>
+                    <th>Instruction Symbol</th>
+                    <th>Instruction</th>
+                    <th>Language Version Added</th>
+                </tr>
+                <tr>
+                    <td>#</td>
+                    <td>Print As Integer</td>
+                    <td>JScroll</td>
+                </tr>
+                <tr>
+                    <td>@</td>
+                    <td>Print As Character</td>
+                    <td>JScroll</td>
+                </tr>
+            </table>
+
+            <h3>Misc. Instructions</h3>
+            <table>
+                <tr>
+                    <th>Instruction Symbol</th>
+                    <th>Instruction</th>
+                    <th>Language Version Added</th>
+                </tr>
+                <tr>
+                    <td>^</td>
+                    <td>Print A Newline Character</td>
+                    <td>JScroll</td>
+                </tr>
+                <tr>
+                    <td>'{char}'</td>
+                    <td>Override Print char</td>
+                    <td>JScroll</td>
+                </tr>
+                <tr>
+                    <td>"{string}"</td>
+                    <td>Override Print string</td>
+                    <td>JScroll</td>
+                </tr>
+                <tr>
+                    <td>&</td>
+                    <td>Print Current Tape</td>
+                    <td>JScroll</td>
+                </tr>
+                <tr>
+                    <td>$</td>
+                    <td>Print Current Tape With Spaces</td>
+                    <td>JScroll</td>
+                </tr>
+                <tr>
+                    <td>;</td>
+                    <td>End Program, Returns The Current Value Stored In The Pointer's Memory</td>
+                    <td>JScroll</td>
+                </tr>
+            </table>
+            <div class="notice">
+                Note: In JScroll does not return anything out of the program.<br> 
+                In JScroll ';' just ends the program.<br>
+            </div><br>
+
+            <h3>Conditional Logic Instructions</h3>
+            All conditional logic is proceeded by a '_' to inidicate that it is conditional logic.<br>
+            Conditional logic sits on the tape and involves 3 points.<br>
+            Example (i0, i1, i2) i0 gets compared to i2, the result is stored as a 0 (false) or 1 (true) in i1.<br>
+            In the above example the tape may look like ... i0, i1, i2, ... and i1 would be where the pointer must sit to make the comparison.<br>
+            <table>
+                <tr>
+                    <th>Instruction Symbol</th>
+                    <th>Instruction</th>
+                    <th>Language Version Added</th>
+                </tr>
+                <tr>
+                    <td>_&lt&lt</td>
+                    <td>Less Than</td>
+                    <td>CScroll 1.0.1</td>
+                </tr>
+                <tr>
+                    <td>_&gt&gt</td>
+                    <td>Greater Than</td>
+                    <td>CScroll 1.0.1</td>
+                </tr>
+                <tr>
+                    <td>_&lt=</td>
+                    <td>Less Than Or Equal To</td>
+                    <td>CScroll 1.0.1</td>
+                </tr>
+                <tr>
+                    <td>_&gt=</td>
+                    <td>Greater Than Or Equal Toe</td>
+                    <td>CScroll 1.0.1</td>
+                </tr>
+                <tr>
+                    <td>_==</td>
+                    <td>Equal To</td>
+                    <td>CScroll 1.0.1</td>
+                </tr>
+                <tr>
+                    <td>_!=</td>
+                    <td>Not Equal To</td>
+                    <td>CScroll 1.0.1</td>
+                </tr>
+            </table>
+
+            <h2>Examples</h2>
+            <h3>Hello World</h3>
+            <code>
+                "Hello World";<br>
+                Output: HelloWorld<br>
+            </code>
+            <h3>Fibonnaci Without Loops</h3>
+            <code>
+                +.> *.> *<.>*> *<.>*> *<.>*> *<.>*> *<.>*> *<.>*> *<.>*>$;<br>
+                Output: 1 1 2 3 5 8 13 21<br>
+            </code>
+    </body>
+</html>

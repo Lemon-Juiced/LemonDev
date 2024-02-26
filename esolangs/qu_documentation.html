@@ -208,7 +208,38 @@
             </table>
 
             <h3>Conditional Logic Instructions</h3>
-
+            <table>
+                <tr>
+                    <th>Instruction</th>
+                    <th>Description</th>
+                    <th>Parameters</th>
+                    <th>Language Revision</th>
+                </tr>
+                <tr>
+                    <td>IFEQ</td>
+                    <td>If the first element in the queue is equal to the second option in the queue, go to the specified location.</td>
+                    <td>1. IFEQ {int} - Goes to a specified line index.<br>2. IFEQ {string} - Goes to a string that is associated with the saved location matching it's name.</td>
+                    <td>2024.02.20</td>
+                </tr>
+                <tr>
+                    <td>IFGT</td>
+                    <td>If the first element in the queue is greater than the second option in the queue, go to the specified location.</td>
+                    <td>1. IFGT {int} - Goes to a specified line index.<br>2. IFGT {string} - Goes to a string that is associated with the saved location matching it's name.</td>
+                    <td>2024.02.20</td>
+                </tr>
+                <tr>
+                    <td>IFLT</td>
+                    <td>If the first element in the queue is less than the second option in the queue, go to the specified location.</td>
+                    <td>1. IFLT {int} - Goes to a specified line index.<br>2. IFLT {string} - Goes to a string that is associated with the saved location matching it's name.</td>
+                    <td>2024.02.20</td>
+                </tr>
+                <tr>
+                    <td>IFNQ</td>
+                    <td>If the first element in the queue is not equal to the second option in the queue, go to the specified location.</td>
+                    <td>1. IFNQ {int} - Goes to a specified line index.<br>2. IFNQ {string} - Goes to a string that is associated with the saved location matching it's name.</td>
+                    <td>2024.02.20</td>
+                </tr>
+            </table>
 
             <h2>Examples</h2>
             <h3>Hello World #1</h3>

@@ -11,6 +11,8 @@ class CustomNavBar extends HTMLElement {
                 <div class="dropdown-content">
                     <a href="../esolangs/cscroll_jscroll.html">CScroll/JScroll</a>
                     <a href="../esolangs/cscroll_jscroll_documentation.html">CScroll/JScroll Documentation</a>
+                    <a href="../esolangs/qu.html">Qu</a>
+                    <a href="../esolangs/qu_documentation.html">Qu Documentation</a>
                 </div>
             </li>
             <li class="dropdown">

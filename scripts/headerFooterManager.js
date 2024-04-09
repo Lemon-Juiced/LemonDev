@@ -27,6 +27,12 @@ class CustomNavBar extends HTMLElement {
                     <a href="../mods/old_ideas.html">Old Ideas</a>
                 </div>
             </li>   
+            <li class="dropdown">
+                <a href="../scalar_studios/scalar_studios.html">Scalar Studios</a>
+                <div class="dropdown-content">
+                    <a href="../scalar_studios/scalar_studios.html">Coming Soon!</a>
+                </div>
+            </li>   
         </ul>
         `
     }
@@ -58,7 +64,13 @@ class CustomHomepageNavBar extends HTMLElement {
                     <a href="mods/discontinued_mods.html">Discontinued Mods</a>
                     <a href="mods/old_ideas.html">Old Ideas</a>
                 </div>
-            </li>   
+            </li>
+            <li class="dropdown">
+                <a href="scalar_studios/scalar_studios.html">Scalar Studios</a>
+                <div class="dropdown-content">
+                    <a href="scalar_studios/scalar_studios.html">Coming Soon!</a>
+                </div>
+            </li>     
         </ul>
         `
     }

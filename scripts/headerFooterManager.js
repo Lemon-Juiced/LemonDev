@@ -28,10 +28,7 @@ class CustomNavBar extends HTMLElement {
                 </div>
             </li>   
             <li class="dropdown">
-                <a href="../scalar_studios/scalar_studios.html">Scalar Studios</a>
-                <div class="dropdown-content">
-                    <a href="../scalar_studios/scalar_studios.html">Coming Soon!</a>
-                </div>
+                <a href="http://scalarstudios.site/">Scalar Studios</a>
             </li>   
         </ul>
         `
@@ -66,10 +63,7 @@ class CustomHomepageNavBar extends HTMLElement {
                 </div>
             </li>
             <li class="dropdown">
-                <a href="scalar_studios/scalar_studios.html">Scalar Studios</a>
-                <div class="dropdown-content">
-                    <a href="scalar_studios/scalar_studios.html">Coming Soon!</a>
-                </div>
+                <a href="http://scalarstudios.site/">Scalar Studios</a>
             </li>     
         </ul>
         `

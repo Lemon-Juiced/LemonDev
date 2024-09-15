@@ -17,15 +17,6 @@ class CustomNavBar extends HTMLElement {
             </li>
             <li class="dropdown">
                 <a href="../mods/minecraft_mods.html">Minecraft Mods</a>
-                <div class="dropdown-content">
-                    <a href="../mods/attributions.html">Attributions</a>
-                    <a href="../mods/contest_entry.html">Contest Entry</a>
-                    <a href="../mods/contributions.html">Contributions</a>
-                    <a href="../mods/dependencies.html">Dependencies</a>
-                    <a href="../mods/developement_progress.html">Development Progress</a>
-                    <a href="../mods/discontinued_mods.html">Discontinued Mods</a>
-                    <a href="../mods/old_ideas.html">Old Ideas</a>
-                </div>
             </li>   
             <li class="dropdown">
                 <a href="http://scalarstudios.site/">Scalar Studios</a>
@@ -52,15 +43,6 @@ class CustomHomepageNavBar extends HTMLElement {
             </li>
             <li class="dropdown">
                 <a href="mods/minecraft_mods.html">Minecraft Mods</a>
-                <div class="dropdown-content">
-                    <a href="mods/attributions.html">Attributions</a>
-                    <a href="mods/contest_entry.html">Contest Entry</a>
-                    <a href="mods/contributions.html">Contributions</a>
-                    <a href="mods/dependencies.html">Dependencies</a>
-                    <a href="mods/developement_progress.html">Development Progress</a>
-                    <a href="mods/discontinued_mods.html">Discontinued Mods</a>
-                    <a href="mods/old_ideas.html">Old Ideas</a>
-                </div>
             </li>
             <li class="dropdown">
                 <a href="http://scalarstudios.site/">Scalar Studios</a>

@@ -9,10 +9,7 @@ class CustomNavBar extends HTMLElement {
             <li class="dropdown">
                 <a href="../esolangs/esoteric_programming_languages.html" class="dropbtn">Esoteric Programming Languages</a>
                 <div class="dropdown-content">
-                    <a href="../esolangs/cscroll_jscroll.html">CScroll/JScroll</a>
-                    <a href="../esolangs/cscroll_jscroll_documentation.html">CScroll/JScroll Documentation</a>
-                    <a href="../esolangs/qu.html">Qu</a>
-                    <a href="../esolangs/qu_documentation.html">Qu Documentation</a>
+                    <a href="../esolangs/lemonic.html">Lemonic</a>
                 </div>
             </li>
             <li class="dropdown">
@@ -37,8 +34,7 @@ class CustomHomepageNavBar extends HTMLElement {
             <li class="dropdown">
                 <a href="esolangs/esoteric_programming_languages.html" class="dropbtn">Esoteric Programming Languages</a>
                 <div class="dropdown-content">
-                    <a href="esolangs/cscroll_jscroll.html">CScroll/JScroll</a>
-                    <a href="esolangs/cscroll_jscroll_documentation.html">CScroll/JScroll Documentation</a>
+                    <a href="esolangs/lemonic.html">Lemonic</a>
                 </div>
             </li>
             <li class="dropdown">

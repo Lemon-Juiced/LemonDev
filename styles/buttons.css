@@ -1,0 +1,42 @@
+/* Base button styles */
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #1e1e2f, #2a2a40, #1e1e2f); /* Match navbar gradient */
+    color: #e0e0f0; /* Lighter grayish-blue for better contrast */
+    border: 1px solid #121212; /* Match navbar border */
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Match navbar shadow */
+    transition: transform 0.3s, background-color 0.3s, color 0.3s, text-shadow 0.3s;
+    font-weight: 500; /* Slightly bolder text for better readability */
+}
+
+/* Hover effect for all buttons */
+.button:hover {
+    background-color: #3a3a5c; /* Darker blue-gray for hover */
+    color: #f0f0ff; /* Even lighter grayish-blue for hover */
+    transform: scale(1.05); /* Slightly grow the button on hover */
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.6); /* Subtle glow effect */
+}
+
+/* Large button modifier (for index page) */
+.button-large {
+    width: 80%; /* Button width relative to the container */
+    height: 15%; /* Button height relative to the viewport */
+    max-height: 100px; /* Optional: Limit the maximum height */
+    font-size: 1.2rem; /* Adjust font size for larger buttons */
+}
+
+/* Small button modifier (for other pages) */
+.button-small {
+    padding: 10px;
+    font-size: 16px;
+    width: auto; /* Default width */
+    height: auto; /* Default height */
+    margin-bottom: 10px;
+    margin-right: 10px;
+}

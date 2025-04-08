@@ -1,0 +1,26 @@
+/* Specific button styles for the Professional Work page */
+.pro-work-button {
+    display: block; /* Make buttons block-level to control width */
+    width: 100%; /* Make the button fill the entire container width */
+    max-width: 600px; /* Optional: Limit the maximum width */
+    margin: 20px auto; /* Center the button horizontally and add vertical spacing */
+    padding: 20px 30px; /* Add padding for a larger clickable area */
+    background: linear-gradient(45deg, #2a2a40, #3a3a5c); /* Slightly darker gradient for this page */
+    color: #ffffff; /* White text for better contrast */
+    border: 2px solid #121212; /* Slightly thicker border for emphasis */
+    border-radius: 12px; /* Rounded corners */
+    text-align: center; /* Center text inside the button */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1.4rem; /* Larger font size for emphasis */
+    font-weight: bold; /* Make text bold */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8); /* Stronger shadow for depth */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: transform 0.3s, background-color 0.3s, color 0.3s; /* Smooth hover effects */
+}
+
+/* Hover effect for Professional Work buttons */
+.pro-work-button:hover {
+    background-color: #4a4a6c; /* Slightly lighter blue-gray for hover */
+    color: #e0e0f0; /* Light grayish-blue text on hover */
+    transform: scale(1.1); /* Slightly grow the button on hover */
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,34 +8,40 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="https://lemonjuice.dev/styles/styles.css">
-        <script src="scripts/mods.js"></script>
+        <script src="scripts/styleLoader.js"></script>
+        <script>
+            loadStyles(1);
+        </script>
         <script src="scripts/headerFooterManager.js"></script>
         <script type="module" src="https://md-block.verou.me/md-block.js"></script>
     </head>
     <body>
-        <custom-homepage-navbar></custom-homepage-navbar>
+        <custom-navbar></custom-navbar>
 
         <div class="general">
-            <center>
-                <h1 style="color: yellow;">Lemon Dev</h1>
-                <h2>Welcome to Lemon Dev!</h2>
-                <div>
-                    Here you will find all my projects from custom Esoteric Programming Languages to Minecraft Mods to Game Development.<br>
-                    If you couldn't tell, I'm a big fan of programming (and Linux) in general and am a Systems Programmer by trade.<br>
-                    What are you interested in?<br><br><br>
+            <h1 style="color: yellow; text-align: left; padding-left: 20px;">Lemon Dev</h1>
+            <div class="split-container">
+                <!-- Left Section -->
+                <div class="left-section">
+                    <h2>Welcome to Lemon Dev!</h2>
+                    <p>
+                        Discover my projects, which range from custom Esoteric Programming Languages to Professional Work, Minecraft Mods, and Game Development. 
+                        I'm passionate about programming (and Linux) and work as a Systems Programmer by trade.
+                    </p>
+                    <h2>My Top Languages</h2>
+                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lemon-juiced&layout=compact&langs_count=10&theme=dark" alt="Lemon-Juiced's Top Languages" />
+                </div>
+
+                <!-- Right Section -->
+                <div class="right-section">
                     <div class="buttons-container">
-                        <a href="esolangs/esoteric_programming_languages.html" class="button">Esoteric Programming Languages</a>
-                        <a href="mods/minecraft_mods.html" class="button">Minecraft Mods</a>
-                        <a href="http://scalarstudios.site/" class="button">Scalar Studios (Game Development)</a>
+                        <a href="esolangs.html" class="button button-large">Esoteric Programming Languages</a>
+                        <a href="pro_work.html" class="button button-large">Professional Work</a>
+                        <a href="minecraft_mods.html" class="button button-large">Minecraft Mods</a>
+                        <a href="http://scalarstudios.site/" class="button button-large">Scalar Studios (Game Development)</a>
                     </div>
                 </div>
-                <h2>My Top Languages</h2>
-                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lemon-juiced&layout=compact&langs_count=10&theme=dark" alt="Lemon-Juiced's Top Languages" width="900" height="270" />
-            </center>
-    </body>
-</html>
-
-            </center>
+            </div>
+        </div>
     </body>
 </html>

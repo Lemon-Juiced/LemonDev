@@ -1,0 +1,85 @@
+/* General styles for Markdown content */
+.markdown-container {
+    font-family: "Gill Sans", sans-serif; /* Match the website's font */
+    color: #e0e0f0; /* Match the website's text color */
+    line-height: 1.6; /* Improve readability */
+    padding: 20px; /* Add padding around the content */
+    background-color: #1e1e2f; /* Match the website's background */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Add a subtle shadow */
+}
+
+/* Headings */
+.markdown-container h1,
+.markdown-container h2,
+.markdown-container h3 {
+    color: #f0f0ff; /* Lighter color for headings */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #3a3a5c; /* Optional: Add a bottom border */
+    padding-bottom: 5px;
+}
+
+/* Paragraphs */
+.markdown-container p {
+    margin: 10px 0;
+}
+
+/* Lists */
+.markdown-container ul,
+.markdown-container ol {
+    margin: 10px 20px;
+    padding-left: 20px;
+}
+
+/* Links */
+.markdown-container a {
+    color: #3498db; /* Match the website's link color */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.markdown-container a:hover {
+    color: #2c7cbf; /* Darker blue on hover */
+}
+
+/* Code blocks */
+.markdown-container pre,
+.markdown-container code {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #2a2a40; /* Dark background for code blocks */
+    color: #e0e0f0; /* Light text for code */
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto; /* Allow horizontal scrolling for long code */
+}
+
+/* Blockquotes */
+.markdown-container blockquote {
+    border-left: 4px solid #3a3a5c;
+    padding-left: 10px;
+    color: #d1d1e0;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+/* Code blocks and inline code styles */
+.markdown-container pre,
+.markdown-container code {
+    font-family: Consolas, "Courier New", Courier, monospace; /* Use Consolas for code */
+    font-size: 1.1rem; /* Increase font size to match other text */
+    background-color: #2a2a40; /* Dark background for code blocks */
+    color: #e0e0f0; /* Light text for code */
+    padding: 10px; /* Add padding for better readability */
+    border-radius: 5px; /* Rounded corners */
+    overflow-x: auto; /* Allow horizontal scrolling for long code */
+    line-height: 1.5; /* Improve readability */
+}
+
+/* Inline code */
+.markdown-container code {
+    padding: 2px 4px; /* Smaller padding for inline code */
+    background-color: #3a3a5c; /* Slightly lighter background for inline code */
+    border-radius: 3px; /* Rounded corners for inline code */
+    font-size: 1.1rem; /* Match the size of block code */
+}

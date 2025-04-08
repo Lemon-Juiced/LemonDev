@@ -1,0 +1,74 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(45deg, #1e1e2f, #2a2a40, #1e1e2f);
+    background-size: 200% 200%;
+    animation: metallic-shine 5s linear infinite;
+    font-family: "Gill Sans", sans-serif;
+    border: 1px solid #121212;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.navbar li {
+    float: left;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.navbar a,
+.navbar .dropbtn {
+    display: inline-block;
+    color: #d1d1e0; /* Light grayish-blue for text */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover,
+.navbar .dropdown:hover .dropbtn {
+    background-color: #3a3a5c; /* Darker blue-gray for hover */
+    color: #ffffff; /* White text on hover */
+}
+
+.navbar .dropdown {
+    display: inline-block;
+}
+
+.navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2a2a40; /* Dark blue-gray for dropdown */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.navbar .dropdown-content a {
+    color: #d1d1e0; /* Light grayish-blue for dropdown links */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar .dropdown-content a:hover {
+    background-color: #3a3a5c; /* Darker blue-gray for hover */
+    color: #ffffff; /* White text on hover */
+}
+
+.navbar .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Add a subtle animation for a metallic shine effect */
+@keyframes metallic-shine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}

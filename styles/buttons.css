@@ -35,8 +35,23 @@
 .button-small {
     padding: 10px;
     font-size: 16px;
-    width: auto; /* Default width */
-    height: auto; /* Default height */
+    width: auto;  
+    height: auto;  
     margin-bottom: 10px;
     margin-right: 10px;
+}
+
+/* Horizontal button container */
+.horizontal-buttons {
+    display: flex;  
+    gap: 10px; 
+    justify-content: center;  
+    flex-wrap: wrap;  
+}
+
+/* Adjust button styles for horizontal layout */
+.horizontal-buttons .pro-work-button {
+    flex: 1; 
+    max-width: 200px;  
+    text-align: center;  
 }

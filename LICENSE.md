@@ -1,5 +1,5 @@
-# LemonDev FOSS License v1.1
-Revision Date: 4/8/2025
+# LemonDev FOSS License v1.1a
+Revision Date: 4/29/2025
 
 ## Foreword
 This license is provided by a developer who wishes to share their work freely, openly, and fairly.
@@ -31,8 +31,9 @@ This license may be updated or revised at any time. The latest version will alwa
 Updates to this license, are unlikely to occur, but if they do, they will be made with the intention of improving clarity and fairness for all users.
 
 ## Changelog
-v1.0 (4/7/2025) Initial Draft
-v1.1 (4/8/2025) Added Revision Date & Changelog
+- v1.0 (4/7/2025) Initial Draft  
+- v1.1 (4/8/2025) Added Revision Date & Changelog
+- v1.1a (4/29/2025) Fixed Formatting Error
 
 ## Footer
 1. This license is provided "as-is" without any warranties or guarantees. The author is not liable for any damages or issues arising from the use of the code. By using this code, you agree to these terms and conditions.

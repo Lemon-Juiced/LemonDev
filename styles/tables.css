@@ -5,18 +5,18 @@ table {
     margin: 20px 0;
     font-size: 1rem;
     font-family: "Gill Sans", sans-serif;
-    background: linear-gradient(45deg, #1e1e2f, #2a2a40, #1e1e2f); /* Match button gradient */
-    color: #d1d1e0; /* Light grayish-blue for text */
-    border: 1px solid #121212; /* Match button border */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Match button shadow */
-    border-radius: 10px; /* Rounded corners */
+    background: #23232b;
+    color: #e0e0f0;
+    border: 2px solid #4fc3f7;
+    box-shadow: 0 4px 8px rgba(33, 150, 243, 0.2);
+    border-radius: 0;
     overflow: hidden; /* Ensure rounded corners apply to content */
 }
 
 /* Table header styles */
 th {
-    background: rgba(58, 58, 92, 0.8); /* Darker blue-gray for header background */
-    color: #ffffff; /* White text for headers */
+    background: #263238;
+    color: #4fc3f7;
     font-size: 1.1rem;
     font-weight: bold;
     padding: 12px;
@@ -34,11 +34,11 @@ tr {
 td {
     padding: 12px;
     text-align: left;
-    color: #d1d1e0; /* Light grayish-blue for text */
+    color: #e0e0f0;
 }
 
 /* Hover effect for rows */
 tr:hover {
-    background-color: #3a3a5c; /* Darker blue-gray for hover */
-    color: #ffffff; /* White text on hover */
+    background-color: #263238;
+    color: #82b1ff;
 }

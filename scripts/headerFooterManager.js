@@ -18,8 +18,11 @@ class CustomNavBar extends HTMLElement {
                 <a href="minecraft_mods.html">Minecraft Mods</a>
             </li>   
             <li class="dropdown">
+                <a href="code_style.html" class="dropbtn">Code Style</a>
+            </li>
+            <li class="dropdown navbar-right">
                 <a href="http://scalarstudios.site/">Scalar Studios</a>
-            </li>   
+            </li>
         </ul>
         `
     }

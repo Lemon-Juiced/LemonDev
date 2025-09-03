@@ -1,0 +1,102 @@
+/* Homepage layout styles for Lemon Dev */
+.homepage-title {
+    text-align: center;
+    color: yellow;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 2.8rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.homepage-top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10vw 10px 10vw;
+    gap: 40px;
+}
+.homepage-welcome, .homepage-languages {
+    flex: 1;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+    font-family: "Gill Sans", sans-serif;
+    color: #82b1ff;
+}
+
+.homepage-main-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 10vw 40px 10vw;
+    gap: 40px;
+}
+
+.homepage-about, .homepage-languages-img {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.homepage-about {
+    flex: 1;
+    padding-right: 30px;
+}
+.homepage-desc {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #e0e0f0;
+    background: #23232b;
+    border-radius: 0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.7);
+}
+.homepage-languages-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.homepage-languages-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 0;
+    box-shadow: 0 4px 8px rgba(33, 150, 243, 0.3);
+}
+
+.homepage-buttons-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 40px 0 0 0;
+}
+.button.button-large {
+    width: 220px;
+    max-width: 90vw;
+    height: 60px;
+    font-size: 1.2rem;
+    border-radius: 0 !important;
+    border: 2px solid #4fc3f7 !important;
+    background: #23232b !important;
+    color: #4fc3f7 !important;
+    box-shadow: none !important;
+    transition: transform 0.2s, background-color 0.2s, color 0.2s, outline 0.2s;
+}
+
+@media (max-width: 900px) {
+    .homepage-main-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .homepage-about, .homepage-languages-img {
+        width: 100%;
+    }
+    .homepage-buttons-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .homepage-title {
+        font-size: 2rem;
+    }
+}

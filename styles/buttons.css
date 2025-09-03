@@ -3,24 +3,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, #1e1e2f, #2a2a40, #1e1e2f); /* Match navbar gradient */
-    color: #e0e0f0; /* Lighter grayish-blue for better contrast */
-    border: 1px solid #121212; /* Match navbar border */
-    border-radius: 10px;
+    background: #23232b;
+    color: #4fc3f7;
+    border: 2px solid #4fc3f7;
+    border-radius: 0;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Match navbar shadow */
-    transition: transform 0.3s, background-color 0.3s, color 0.3s, text-shadow 0.3s;
-    font-weight: 500; /* Slightly bolder text for better readability */
+    box-shadow: none;
+    transition: transform 0.2s, background-color 0.2s, color 0.2s, outline 0.2s;
+    font-weight: 500;
 }
 
 /* Hover effect for all buttons */
 .button:hover {
-    background-color: #3a3a5c; /* Darker blue-gray for hover */
-    color: #f0f0ff; /* Even lighter grayish-blue for hover */
-    transform: scale(1.05); /* Slightly grow the button on hover */
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.6); /* Subtle glow effect */
+    background-color: #263238;
+    color: #82b1ff;
+    outline: 2px solid #82b1ff;
+    transform: scale(1.03);
+    text-shadow: none;
 }
 
 /* Large button modifier (for index page) */

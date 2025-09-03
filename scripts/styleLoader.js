@@ -4,7 +4,8 @@ function loadStyles(optionalStyle = 0) {
         "styles/navbar.css",
         "styles/buttons.css",
         "styles/tables.css",
-        "styles/markdown.css"
+        "styles/markdown.css",
+        "styles/homepage.css"
     ];
 
     // Add base stylesheets
@@ -26,6 +27,11 @@ function loadStyles(optionalStyle = 0) {
         pro_workStyle.rel = "stylesheet";
         pro_workStyle.href = "styles/pro_work.css";
         document.head.appendChild(pro_workStyle);
+        
+        const projectBoxStyle = document.createElement("link");
+        projectBoxStyle.rel = "stylesheet";
+        projectBoxStyle.href = "styles/project_box.css";
+        document.head.appendChild(projectBoxStyle);
     }
 
 }

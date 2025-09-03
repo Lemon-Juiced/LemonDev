@@ -1,85 +1,86 @@
 /* General styles for Markdown content */
 .markdown-container {
-    font-family: "Gill Sans", sans-serif; /* Match the website's font */
-    color: #e0e0f0; /* Match the website's text color */
-    line-height: 1.6; /* Improve readability */
-    padding: 20px; /* Add padding around the content */
-    background-color: #1e1e2f; /* Match the website's background */
-    border-radius: 10px; /* Add rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Add a subtle shadow */
+    font-family: "Gill Sans", sans-serif;
+    color: #e0e0f0;
+    line-height: 1.7;
+    padding: 24px 32px;
+    background-color: #23232b;
+    border-radius: 0;
+    box-shadow: 0 4px 16px rgba(33, 150, 243, 0.12);
+    border: 2px solid #4fc3f7;
 }
 
 /* Headings */
 .markdown-container h1,
 .markdown-container h2,
 .markdown-container h3 {
-    color: #f0f0ff; /* Lighter color for headings */
-    margin-top: 20px;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #3a3a5c; /* Optional: Add a bottom border */
-    padding-bottom: 5px;
+    color: #4fc3f7;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #4fc3f7;
+    padding-bottom: 6px;
+    letter-spacing: 1px;
+    font-weight: 600;
 }
 
 /* Paragraphs */
 .markdown-container p {
-    margin: 10px 0;
+    margin: 12px 0;
+    color: #b0c4de;
 }
 
 /* Lists */
 .markdown-container ul,
 .markdown-container ol {
-    margin: 10px 20px;
-    padding-left: 20px;
+    margin: 12px 32px;
+    padding-left: 24px;
 }
 
 /* Links */
 .markdown-container a {
-    color: #3498db; /* Match the website's link color */
-    text-decoration: none;
-    transition: color 0.3s;
+    color: #4fc3f7;
+    text-decoration: underline;
+    border-bottom: 2px solid #4fc3f7;
+    transition: color 0.2s, border-color 0.2s;
 }
 
 .markdown-container a:hover {
-    color: #2c7cbf; /* Darker blue on hover */
+    color: #82b1ff;
+    border-bottom: 2px solid #82b1ff;
 }
 
 /* Code blocks */
-.markdown-container pre,
-.markdown-container code {
-    font-family: "Courier New", Courier, monospace;
-    background-color: #2a2a40; /* Dark background for code blocks */
-    color: #e0e0f0; /* Light text for code */
-    padding: 10px;
-    border-radius: 5px;
-    overflow-x: auto; /* Allow horizontal scrolling for long code */
-}
-
-/* Blockquotes */
-.markdown-container blockquote {
-    border-left: 4px solid #3a3a5c;
-    padding-left: 10px;
-    color: #d1d1e0;
-    font-style: italic;
-    margin: 10px 0;
-}
-
-/* Code blocks and inline code styles */
-.markdown-container pre,
-.markdown-container code {
-    font-family: Consolas, "Courier New", Courier, monospace; /* Use Consolas for code */
-    font-size: 1.1rem; /* Increase font size to match other text */
-    background-color: #2a2a40; /* Dark background for code blocks */
-    color: #e0e0f0; /* Light text for code */
-    padding: 10px; /* Add padding for better readability */
-    border-radius: 5px; /* Rounded corners */
-    overflow-x: auto; /* Allow horizontal scrolling for long code */
-    line-height: 1.5; /* Improve readability */
+.markdown-container pre {
+    font-family: Consolas, "Courier New", Courier, monospace;
+    background-color: #1a1a22;
+    color: #82b1ff;
+    padding: 12px;
+    border-radius: 6px;
+    border: 2px solid #4fc3f7;
+    overflow-x: auto;
+    box-shadow: 0 2px 8px rgba(33, 150, 243, 0.10);
+    font-size: 1.1rem;
+    line-height: 1.5;
 }
 
 /* Inline code */
 .markdown-container code {
-    padding: 2px 4px; /* Smaller padding for inline code */
-    background-color: #3a3a5c; /* Slightly lighter background for inline code */
-    border-radius: 3px; /* Rounded corners for inline code */
-    font-size: 1.1rem; /* Match the size of block code */
+    font-family: Consolas, "Courier New", Courier, monospace;
+    padding: 2px 6px;
+    background-color: #23232b;
+    border-radius: 4px;
+    font-size: 1.08rem;
+    color: #4fc3f7;
+    border: 1px solid #4fc3f7;
+}
+
+/* Blockquotes */
+.markdown-container blockquote {
+    border-left: 4px solid #82b1ff;
+    padding-left: 16px;
+    color: #b0c4de;
+    font-style: italic;
+    margin: 16px 0;
+    background: #23232b;
+    box-shadow: 0 2px 8px rgba(33, 150, 243, 0.08);
 }

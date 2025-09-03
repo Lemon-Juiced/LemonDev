@@ -6,16 +6,10 @@ class CustomNavBar extends HTMLElement {
             <li class="dropdown">
                 <a href="index.html" class="dropbtn">Home</a>
             </li>
-            <li class="dropdown">
-                <a href="esolangs.html" class="dropbtn">Esoteric Programming Languages</a>
-                <div class="dropdown-content">
-                    <a href="esolangs_lemonic.html">Lemonic</a>
-                </div>
-            </li>
             <li class ="dropdown">
                 <a href = "pro_work.html" class="dropbtn">Pro Work</a>
                 <div class="dropdown-content">
-                    <a href="pro_work_dtar.html">DTar</a>
+                    <a href="pro_work_tara.html">Tara</a>
                     <a href="pro_work_rpjl.html">RPJL</a>
                     <a href="pro_work_license.html">LemonDev FOSS License</a>
                 </div>

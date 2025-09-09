@@ -10,26 +10,6 @@
 
         <script src="scripts/styleLoader.js"></script>
         <script src="scripts/headerFooterManager.js"></script>
-        <style>
-            table {
-                width: 100%;
-                border-collapse: collapse;
-            }
-            th, td {
-                border: 1px solid #ddd;
-                padding: 8px;
-            }
-            th {
-                text-align: left;
-            }
-            td:nth-child(3), td:nth-child(4) {
-                width: 30%;
-            }
-            h1, h2, h3 {
-                color: #4fc3f7;
-                font-family: "Gill Sans", sans-serif;
-            }
-        </style>
     </head>
     <body>
         <custom-navbar></custom-navbar>
@@ -41,7 +21,7 @@
             
             <table>
                 <tr>
-                    <th>Image</th>
+                    <th>Icon</th>
                     <th>Mod Name</th>
                     <th>Game Version</th>
                     <th>Original Author</th>
@@ -138,40 +118,62 @@
             </table>
 
             <h2>Contest Entries</h2>
-            <table>
-                <tr>
-                    <th>Mod Name</th>
-                    <th>Contest</th>
-                    <th>Contest Host</th>
-                    <th>Game Version</th>
-                    <th>Placement/Result</th>
-                </tr>
-                <tr>
-                    <td><a href="https://www.curseforge.com/minecraft/mc-mods/reaped">Reaped</a></td>
-                    <td><a href="https://spooky-jam.com/events/2023/">SpookyJam 2023</a></td>
-                    <td>Mycelium Mod Network</td>
-                    <td>1.20.1</td>
-                    <td>Participant</td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="https://www.curseforge.com/minecraft/mc-mods/scalar-spooky-structures">Scalar Spooky Structures</a><br>
-                        <i>ORIGINALLY COMBINED WITH</i><br>
-                        <a href="https://www.curseforge.com/minecraft/mc-mods/scalar-spooky-silver">Scalar Spooky Silver</a>
-                    </td>
-                    <td><a href="https://spooky-jam.com/events/2024/">SpookyJam 2024</a></td>
-                    <td>Mycelium Mod Network</td>
-                    <td>1.21.1</td>
-                    <td>Participant</td>
-                </tr>
-                <tr>
-                    <td><a href="https://www.curseforge.com/minecraft/mc-mods/scalar-summer-structures">Scalar Summer Structures</a></td>
-                    <td><a href="https://neoforged.net/news/2025serversidesummer/">Serverside Summer Modjam 2025</a></td>
-                    <td>NeoForged.net</td>
-                    <td>1.21.1</td>
-                    <td>Winner</td>
-                </tr>
-            </table>
+                <table>
+                    <tr>
+                        <th>Icon</th>
+                        <th>Mod Name</th>
+                        <th>Contest</th>
+                        <th>Contest Host</th>
+                        <th>Original Game Version</th>
+                        <th>Current Game Version</th>
+                        <th>Placement/Result</th>
+                        <th>Notes</th>
+                        <th>Source</th>
+                    </tr>
+                    <tr>
+                        <!--Reaped-->
+                        <td style="text-align:center;"><img src="https://raw.githubusercontent.com/Lemon-Juiced/Reaped/refs/heads/master/src/main/resources/reaped.png" alt="Reaped" style="max-width:32px;max-height:32px;"></td>
+                        <td><a href="https://www.curseforge.com/minecraft/mc-mods/reaped">Reaped</a></td>
+                        <td><a href="https://spooky-jam.com/events/2023/">SpookyJam 2023</a></td>
+                        <td>Mycelium Mod Network</td>
+                        <td>1.20.1</td>
+                        <td>1.21.1</td>
+                        <td>Participant</td>
+                        <td>Originally developed for SpookyJam 2023. Revived for SpookyJam 2024 and 2025.</td>
+                        <td style="text-align:center;"><a href="https://github.com/Lemon-Juiced/Reaped"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="GitHub" style="max-width:20px;max-height:20px;"></a></td>
+                    </tr>
+                    <tr>
+                        <!--Scalar Spooky Structures & Spooky Silver-->
+                        <td style="text-align:center;"><img src="https://raw.githubusercontent.com/scalar-studios/SpookyStructures/refs/heads/main/src/main/resources/spooky_structures.png" alt="Scalar Spooky Structures" style="max-width:32px;max-height:32px;"></td>
+                        <td>
+                            <a href="https://www.curseforge.com/minecraft/mc-mods/scalar-spooky-structures">Scalar Spooky Structures</a><br>
+                            <i>Originally combined with</i><br>
+                            <a href="https://www.curseforge.com/minecraft/mc-mods/scalar-spooky-silver">Scalar Spooky Silver</a>
+                        </td>
+                        <td><a href="https://spooky-jam.com/events/2024/">SpookyJam 2024</a></td>
+                        <td>Mycelium Mod Network</td>
+                        <td>1.21.1</td>
+                        <td>1.21.1</td>
+                        <td>Participant</td>
+                        <td>
+                            Originally part of Scalar Spooky Structures, Scalar Spooky Silver was split out to be its own mod.<br>
+                            Developed as one package for SpookyJam 2024, split later.
+                        </td>
+                        <td style="text-align:center;"><a href="https://github.com/scalar-studios/SpookyStructures"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="GitHub" style="max-width:20px;max-height:20px;"></a></td>
+                    </tr>
+                    <tr>
+                        <!--Scalar Summer Structures-->
+                        <td style="text-align:center;"><img src="https://raw.githubusercontent.com/scalar-studios/ScalarSummerStructures/refs/heads/main/src/main/resources/summer_structures.png" alt="Scalar Summer Structures" style="max-width:32px;max-height:32px;"></td>
+                        <td><a href="https://www.curseforge.com/minecraft/mc-mods/scalar-summer-structures">Scalar Summer Structures</a></td>
+                        <td><a href="https://neoforged.net/news/2025serversidesummer/">Serverside Summer Modjam 2025</a></td>
+                        <td>NeoForged.net</td>
+                        <td>1.21.1</td>
+                        <td>1.21.1</td>
+                        <td>Winner</td>
+                        <td>Developed for Serverside Summer Modjam 2025.</td>
+                        <td style="text-align:center;"><a href="https://github.com/scalar-studios/ScalarSummerStructures"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="GitHub" style="max-width:20px;max-height:20px;"></a></td>
+                    </tr>
+                </table>
 
             <h2>Planned Projects & Updates</h2>
             <h3>Projects</h3>

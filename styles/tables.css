@@ -1,6 +1,5 @@
-/* Base table styles */
 table {
-    width: 100%; /* Make the table take up the full width of its container */
+    width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
     font-size: 1rem;
@@ -9,36 +8,34 @@ table {
     color: #e0e0f0;
     border: 2px solid #4fc3f7;
     box-shadow: 0 4px 8px rgba(33, 150, 243, 0.2);
-    border-radius: 0;
-    overflow: hidden; /* Ensure rounded corners apply to content */
 }
-
-/* Table header styles */
+th, td {
+    border: 1px solid #2a2a40;
+    padding: 12px;
+    text-align: left;
+}
 th {
     background: #263238;
     color: #4fc3f7;
     font-size: 1.1rem;
     font-weight: bold;
-    padding: 12px;
-    text-align: left;
-    border-bottom: 2px solid #121212; /* Add a bottom border for separation */
+    border-bottom: 2px solid #121212;
 }
-
-/* Table row styles */
 tr {
-    border-bottom: 1px solid #2a2a40; /* Subtle row separation */
+    border-bottom: 1px solid #2a2a40;
     transition: background-color 0.3s;
 }
-
-/* Table cell styles */
-td {
-    padding: 12px;
-    text-align: left;
-    color: #e0e0f0;
-}
-
-/* Hover effect for rows */
 tr:hover {
     background-color: #263238;
     color: #82b1ff;
 }
+td:nth-child(1), th:nth-child(1) { width: 4%; min-width: 32px; text-align: center; }
+td:nth-child(2), th:nth-child(2) { width: 10%; }
+td:nth-child(3), th:nth-child(3) { width: 10%; }
+td:nth-child(4), th:nth-child(4) { width: 10%; }
+td:nth-child(5), th:nth-child(5) { width: 7%; }
+td:nth-child(6), th:nth-child(6) { width: 7%; }
+td:nth-child(7), th:nth-child(7) { width: 7%; }
+td:nth-child(8), th:nth-child(8) { width: 35%; }
+td:last-child, th:last-child { width: 3%; min-width: 24px; text-align: center; }
+h1, h2, h3 { color: #4fc3f7; font-family: "Gill Sans", sans-serif; }

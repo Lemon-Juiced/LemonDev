@@ -53,8 +53,9 @@
 .homepage-languages-img {
     flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: column; /* keep heading above the image */
+    justify-content: flex-start;
+    align-items: center; /* center the heading and image horizontally */
 }
 .homepage-languages-img img {
     width: 100%;

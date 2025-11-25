@@ -36,6 +36,9 @@ for (int i = 0; i < workers.length; i++) {
 }
 ```
 
+## For Loops
+Do not use enhanced for loops or for each loops, they are inherently less readable and offer less strict control than a traditional for loop.
+
 ## Indentation
 Always indent code inside blocks. No exceptions.
 
@@ -50,9 +53,14 @@ if (condition) {
 ```
 
 ## Single Line If-Else Chains
-Single-line if/else chains are allowed, but only when the logic is simple.
+Single-line if/else chains are allowed, but only when the logic is simple, in other cases divert to normal if-else chains or switches where applicable.
 ```java
 if (ready) start();
 else if (waiting) wait();
 else fail();
 ```
+
+## Ternary Operations
+Do not use ternary operations or the ternary operator.  
+These are far too terse to be readable.  
+Divert to other options.  

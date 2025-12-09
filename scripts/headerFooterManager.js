@@ -9,8 +9,9 @@ class CustomNavBar extends HTMLElement {
             <li class ="dropdown">
                 <a href = "pro_work.html" class="dropbtn">Pro Work</a>
                 <div class="dropdown-content">
-                    <a href="pro_work_tara.html">Tara</a>
+                    <a href="pro_work_jot.html">Jot</a>
                     <a href="pro_work_rpjl.html">RPJL</a>
+                    <a href="pro_work_tara.html">Tara</a>
                     <a href="pro_work_license.html">LemonDev FOSS License</a>
                 </div>
             </li>

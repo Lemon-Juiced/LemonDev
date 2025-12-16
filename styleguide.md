@@ -64,3 +64,14 @@ else fail();
 Do not use ternary operations or the ternary operator.  
 These are far too terse to be readable.  
 Divert to other options.  
+
+## Variable Naming
+When naming variables, especially those that are case sensitive, ensure use of proper case. For example, it is `ID` not `Id`. This is because it is initialism pronounced as letters rather than a word, the correct and unambiguous form is ID.  
+
+```java
+// Correct
+String userID;
+
+// Incorrect
+String userId;
+```

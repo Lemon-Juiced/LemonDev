@@ -1,4 +1,8 @@
 # Lemon Dev Code Style Guide
+Last Updated: 12/19/2025
+
+---
+
 Behold **The** ***n*** **Commandments**!
 
 ## Brace Placement

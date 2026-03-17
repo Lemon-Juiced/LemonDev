@@ -39,3 +39,15 @@ td:nth-child(7), th:nth-child(7) { width: 7%; }
 td:nth-child(8), th:nth-child(8) { width: 35%; }
 td:last-child, th:last-child { width: 3%; min-width: 24px; text-align: center; }
 h1, h2, h3 { color: #4fc3f7; font-family: "Gill Sans", sans-serif; }
+
+tr.subheader td {
+    background: #1b2630;
+    color: #bfefff;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 2px solid #121212;
+}
+tr.subheader:hover {
+    background: #1b2630;
+    color: #bfefff;
+}

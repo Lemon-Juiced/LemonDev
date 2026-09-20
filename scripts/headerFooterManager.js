@@ -13,8 +13,6 @@ class CustomNavBar extends HTMLElement {
                     <a href="pro_work_gitmirror.html">GitMirror</a>
                     <a href="pro_work_isometric2dblockrenderer.html">Isometric2DBlockRenderer</a>
                     <a href="pro_work_jot.html">Jot</a>
-                    <a href="pro_work_license.html">LemonDev FOSS License</a>
-                    <a href="pro_work_tommaven.html">TomMaven</a>
                     <a href="pro_work_whothat.html">WhoThat</a>
                     <a href="pro_work_wincoreutils.html">WinCoreUtils</a>
                 </div>
